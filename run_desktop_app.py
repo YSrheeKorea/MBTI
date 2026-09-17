@@ -100,7 +100,9 @@ def main():
     dist_dir = os.path.join(current_dir, "mbti_app", "dist")
     serve_dir = dist_dir if os.path.exists(dist_dir) else current_dir
 
-    port = get_free_port()
+    # ── 고정 포트 사용 (재실행 시 localStorage 유지를 위해 포트를 고정)
+    FIXED_PORT = 17653
+    port = FIXED_PORT
     url = f"http://127.0.0.1:{port}/index.html"
 
     # 로컬 웹서버 백그라운드 스레드 가동
