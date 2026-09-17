@@ -1,0 +1,38 @@
+{
+  "name": "마음MBTI - 심리 & 성향 검사 센터",
+  "short_name": "마음MBTI",
+  "description": "MBTI, Big 5, 성인 애착 유형, 에니어그램, 번아웃, DISC 등 정밀 심리 검사 모바일 전용 앱",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "categories": ["lifestyle", "utilities", "social"],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
